@@ -1,3 +1,9 @@
+pycal (0.1.1) unstable; urgency=medium
+
+  * d/control: add python dependency
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Fri, 05 Jun 2026 11:40:02 -0400
+
 pycal (0.1) unstable; urgency=medium
 
   * Add Debian release workflow
