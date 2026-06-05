@@ -11,4 +11,5 @@ Package: pycal
 Architecture: any
 Depends:
  ${misc:Depends},
+ python3
 Description: Calendar display utility
