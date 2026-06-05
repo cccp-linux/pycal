@@ -1,0 +1,14 @@
+Source: pycal
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.4
+Vcs-Browser: https://github.com/cccp-linux/pycal
+Vcs-Git: https://github.com/cccp-linux/pycal.git
+
+Package: pycal
+Architecture: any
+Depends:
+ ${misc:Depends},
+Description: Calendar display utility
