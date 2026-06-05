@@ -1,0 +1,24 @@
+#!/bin/bash
+
+tput smcup; tput civis
+trap "tput rmcup; tput cnorm" EXIT
+
+gray=$(tput setaf 8)
+year=$(date +%Y)
+
+print_cal() { tput clear; pycal -mny $year; }
+
+print_cal
+printf "${gray}Navigate:     hjkl np +-   Return: <Home> g r 0   Quit: q x"
+
+while :; do
+    read -srn1 ch
+    case "$ch" in
+    [ACkln+=]) ((++year));;
+    [BDhjp_-]) ((--year));;
+       [Hgr0]) year=$(date +%Y);;
+         [qx]) break;;
+            *) continue;;
+    esac
+    print_cal
+done
