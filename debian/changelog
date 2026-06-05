@@ -1,5 +1,10 @@
-pycal (0.1) UNRELEASED; urgency=medium
+pycal (0.1) unstable; urgency=medium
 
-  * Initial release.
+  * Add Debian release workflow
+  * Add Debian packaging
+  * Update README
+  * Add LICENSE
+  * Add pycal and ipycal
+  * Initial commit
 
- -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Fri, 05 Jun 2026 10:12:12 -0400
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Fri, 05 Jun 2026 11:28:31 -0400
